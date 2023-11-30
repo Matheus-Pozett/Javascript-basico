@@ -1,7 +1,7 @@
 # Boas-vindas ao repositório do projeto Supermercado Pirilampo
 
 <p align="center">
-  <img src="https://github.com/betrybe/sd-039-supermercado-pirilampo/blob/main/assets/images/pirilampo-logo.png" width="40%"/>
+  <img src="https://github.com/tryber/sd-039-supermercado-pirilampo/blob/main/assets/images/pirilampo-logo.png" width="40%"/>
 </p>
 
 Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver **qualquer dúvida**, nos envie no _Slack_ da turma! #vqv 🚀
