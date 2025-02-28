@@ -4,28 +4,8 @@
   <img src="https://github.com/tryber/sd-039-supermercado-pirilampo/blob/main/assets/images/pirilampo-logo.png" width="40%"/>
 </p>
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver **qualquer dúvida**, nos envie no _Slack_ da turma! #vqv 🚀
-
-Aqui, você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
 <br />
 
-## Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do [Código de Conduta e do Manual da Pessoa Estudante da Trybe](https://app.betrybe.com/learn/student-manual/codigo-de-conduta-da-pessoa-estudante).
-
-<br />
-
-## Entregáveis
-
-<details>
-<summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/876a615b-f578-4d65-a820-de9f3e5e57db/lesson/be8632bf-7bb7-4c01-a5d9-7aadac3a58f0) sempre que precisar!
-</details>
-  
 <details>
 <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary><br />
 
@@ -39,7 +19,7 @@ Como sua responsabilidade é pela parte lógica, nenhuma tela será desenvolvida
 
 <br />
 </details>
-  
+
 <details>
   <summary><strong>📝 Habilidades a serem trabalhadas </strong></summary><br />
 
@@ -54,30 +34,19 @@ Neste projeto, verificaremos se você é capaz de:
 
 </details>
 
-<details>
-<summary><strong>🗓 Data de Entrega</strong></summary><br />
-
-- Este projeto é individual;
-
-- São 2 dias de projeto;
-
-- Data para entrega final do projeto: `04/12/2023 23:59`.
-
-</details>
-
 <br />
 
 ## Orientações
 
 <details>
-<summary><strong>‼ Antes de começar a desenvolver</strong></summary><br /> 
+<summary><strong>‼ Antes de começar a desenvolver</strong></summary><br />
 
 ### 1. Clone o repositório
 
 - Use o comando: `git clone git@github.com:tryber/sd-039-supermercado-pirilampo.git`
 
 - Entre na pasta do repositório que você acabou de clonar:
-  
+
   - `cd sd-039-supermercado-pirilampo`
 
 ### 2. Instale as dependências
@@ -93,9 +62,9 @@ Neste projeto, verificaremos se você é capaz de:
 - Se você não estiver, mude para a branch `main`. Use `git checkout main`
 
 - Agora, crie uma branch à qual você vai submeter os `commits` do seu projeto.
-  
+
   - Você deve criar uma branch no formato `{seu-nome-e-sobrenome}-{nome-do-projeto}`. Exemplo: `maria-soares-supermercado-pirilampo`
-  
+
   - Exemplo: `git checkout -b maria-soares-supermercado-pirilampo`
 
 ### 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
@@ -107,7 +76,7 @@ Neste projeto, verificaremos se você é capaz de:
 - Verifique com o comando `git status` que os arquivos adicionados ao _stage_ agora estão verde
 
 - Faça o `commit` inicial com o comando `git commit -m "Iniciando o projeto. VAMOS COM TUDO"`
-  
+
 - Verifique com `git status` que você não possui mais alterações para serem commitadas. A mensagem _nothing to commit_ ou similar deve aparecer
 
 - Adicione a sua branch com o novo `commit` ao repositório remoto com o comando `git push`. Exemplo: `git push -u origin maria-soares-supermercado-pirilampo`
@@ -147,7 +116,7 @@ Faça `commits` das alterações que você fizer no código regularmente, pois a
   - `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
 
 </details>
-  
+
 <details>
 <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
 
@@ -163,7 +132,7 @@ Para sinalizar que o seu projeto está pronto para o _'Code Review'_ das outras 
 
 Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
 </details>
-  
+
 <details>
 <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
 
@@ -191,7 +160,7 @@ Em caso de dúvidas, confira o material na plataforma sobre ESLint. Você vai en
 
 ⚠️ **NESTE PROJETO O ESLINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR!** ⚠️
 </details>
-  
+
 <details>
 <summary><strong>🛠 Testes</strong></summary><br />
 
@@ -983,7 +952,7 @@ Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência 
 [Formulário de avaliação do projeto](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_hidden=CH39&template=betrybe/sd-0x-supermercado-pirilampo)
 
 </details>
-  
+
 <details>
 <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
 
