@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do projeto Supermercado Pirilampo
+# Projeto Supermercado Pirilampo
 
 <p align="center">
   <img src="https://github.com/tryber/sd-039-supermercado-pirilampo/blob/main/assets/images/pirilampo-logo.png" width="40%"/>
@@ -7,7 +7,7 @@
 <br />
 
 <details>
-<summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary><br />
+<summary><strong>🧑‍💻 Sobre o projeto</strong></summary><br />
 
 Filomena Esmeraldina Santos, mais conhecida como **Dona Filó**, é uma empreendedora da cidade de Quixeramobim. O seu supermercado, Pirilampo, precisa passar por um processo de transformação digital, e é aqui que você entra, como uma pessoa desenvolvedora de software.
 
@@ -21,9 +21,7 @@ Como sua responsabilidade é pela parte lógica, nenhuma tela será desenvolvida
 </details>
 
 <details>
-  <summary><strong>📝 Habilidades a serem trabalhadas </strong></summary><br />
-
-Neste projeto, verificaremos se você é capaz de:
+  <summary><strong>📝 Habilidades trabalhadas </strong></summary><br />
 
 - Usar `variáveis` e `tipos de dados` para representar e armazenar informações;
 - Usar `array` para manipular uma lista de elementos;
@@ -31,188 +29,6 @@ Neste projeto, verificaremos se você é capaz de:
 - Usar `for` para percorrer uma lista de dados;
 - Usar `if...else` para inserir condições lógicas nas regras de negócio;
 - Aplicar `lógica de programação` para resolução de problemas.
-
-</details>
-
-<br />
-
-## Orientações
-
-<details>
-<summary><strong>‼ Antes de começar a desenvolver</strong></summary><br />
-
-### 1. Clone o repositório
-
-- Use o comando: `git clone git@github.com:tryber/sd-039-supermercado-pirilampo.git`
-
-- Entre na pasta do repositório que você acabou de clonar:
-
-  - `cd sd-039-supermercado-pirilampo`
-
-### 2. Instale as dependências
-
-- Execute o comando `npm install` no terminal
-
-🚨 Pode ser que a saída do `npm install` sugira utilizar o comando `npm audit`. **NÃO** execute esse comando.
-
-### 3. Crie uma branch a partir da branch `main`
-
-- Verifique que você está na branch `main`. Use o comando `git branch` para isso
-
-- Se você não estiver, mude para a branch `main`. Use `git checkout main`
-
-- Agora, crie uma branch à qual você vai submeter os `commits` do seu projeto.
-
-  - Você deve criar uma branch no formato `{seu-nome-e-sobrenome}-{nome-do-projeto}`. Exemplo: `maria-soares-supermercado-pirilampo`
-
-  - Exemplo: `git checkout -b maria-soares-supermercado-pirilampo`
-
-### 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_. O comando `git status` irá mostrar essa informação para você, mostrando os arquivos em vermelho
-
-- Adicione o novo arquivo ao _stage_ do Git. Use `git add .` para adicionar **todos** os arquivos ao _stage_ ou `git add nome-do-arquivo` para adicionar um arquivo específico
-
-- Verifique com o comando `git status` que os arquivos adicionados ao _stage_ agora estão verde
-
-- Faça o `commit` inicial com o comando `git commit -m "Iniciando o projeto. VAMOS COM TUDO"`
-
-- Verifique com `git status` que você não possui mais alterações para serem commitadas. A mensagem _nothing to commit_ ou similar deve aparecer
-
-- Adicione a sua branch com o novo `commit` ao repositório remoto com o comando `git push`. Exemplo: `git push -u origin maria-soares-supermercado-pirilampo`
-
-### 5. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-039-supermercado-pirilampo/pulls)
-
-- Clique no botão verde _"New pull request"_
-
-- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-
-- Coloque um título para o seu _Pull Request_
-
-- Exemplo: _"[Maria Soares] Supermercado Pirilampo"_
-
-- Clique no botão verde _"Create pull request"_
-
-- Adicione uma descrição para o _Pull Request_, um título nítido que o identifique, e clique no botão verde _"Create pull request"_
-
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-039-supermercado-pirilampo/pulls) e confira se o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-<summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-Faça `commits` das alterações que você fizer no código regularmente, pois assim você garante visibilidade para o time da Trybe e treina essa prática para o mercado de trabalho 😀;
-
-- Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto;
-- Os comandos que você utilizará com mais frequência são:
-
-  - `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_;
-  - `git add` _(para adicionar arquivos ao stage do Git)_;
-  - `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_;
-  - `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_;
-  - `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_.
-
-</details>
-
-<details>
-<summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-Para sinalizar que o seu projeto está pronto para o _'Code Review'_ das outras pessoas estudantes, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _'code-review'_ e marque as outras pessoas estudantes:
-
-- No menu à direita, clique no _link_ **'Labels'** e escolha a _label_ **code-review**;
-
-- No menu à direita, clique no _link_ **'Assignees'** e escolha **o seu usuário**;
-
-- No menu à direita, clique no _link_ **'Reviewers'** e digite `students`, selecione o time `tryber/students-sd-039`.
-
-Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
-</details>
-
-<details>
-<summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-Use o conteúdo sobre [Code Review](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/f04cdb21-382e-4588-8950-3b1a29afd2dd/section/b3af2f05-08e5-4b4a-9667-6f5f729c351d/lesson/36268865-fc46-40c7-92bf-cbded9af9006) para te ajudar a revisar os _Pull Requests_.
-</details>
-
-<details>
-<summary><strong>🎛 Linter</strong></summary><br />
-
-Usaremos o [ESLint](https://eslint.org/) para fazer a análise estática do seu código.
-
-Este projeto já vem com as dependências relacionadas ao _linter_ configuradas no arquivo `package.json`.
-
-Para poder rodar o `ESLint` lembre-se de executar o `npm install` dentro do projeto e depois rode o comando:
-
-```bash
-npm run lint
-```
-
-Se a análise do `ESLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-Você pode também instalar o plugin do `ESLint` no `VSCode`. Para isso, basta fazer o download do [plugin ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) e instalá-lo.
-
-Em caso de dúvidas, confira o material na plataforma sobre ESLint. Você vai encontrar esse conteúdo em nossa [Plataforma de Aprendizagem](https://app.betrybe.com/learn), na seção **Desenvolvimento Web - Vida Real**. O conteúdo sobre ESLint está na seção 34.
-
-⚠️ **NESTE PROJETO O ESLINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR!** ⚠️
-</details>
-
-<details>
-<summary><strong>🛠 Testes</strong></summary><br />
-
-Todos os requisitos do projeto serão testados automaticamente por meio do `Jest`, uma ferramenta que testa seu código e confere se está conforme o esperado. Para rodar o avaliador automático localmente no seu projeto, execute um dos comandos abaixo:
-
-_Para executar todos os testes, utilize:_
-
-```bash
-npm test
-```
-
-_Para executar testes de um arquivo específico, utilize `npm test nomeDoArquivoDeTeste`:_
-
-```bash
-npm test 6-search-product-by-name
-```
-
-Os requisitos do seu projeto são avaliados automaticamente. Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**:
-
-- Na página do seu _Pull Request_, acima do "botão de merge", procure por `Evaluator job` e clique no link `Details`;
-
-- Na página que se abrirá, procure pela linha `Evaluator step` e clique nela;
-
-- Caso tenha dúvidas, peça ajuda no _Slack_.
-
-⚠️ **O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no README. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?**
-
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-</details>
-
-<details>
-<summary><strong>🏗 Estrutura do projeto</strong></summary> <br />
-
-- Cada requisito será desenvolvido em um arquivo específico;
-
-- Cada requisito será desenvolvido em uma função específica;
-
-- As informações de qual arquivo e qual função deverá ser trabalhada estão descritas no enunciado de cada requisito;
-
-- A base de dados que deve ser considerada para alguns dos requisitos se encontra no arquivo `data.json`, dentro do diretório `src`;
-
-- **Invista um tempo de qualidade para entender a estrutura do JSON!**;
-
-- O JSON já está importado em todos os arquivos dos requisitos como um array de objetos javascript, na primeira linha. **Não remova essa linha.**;
-
-- Você irá notar que no final de cada arquivo dos requisitos existe um código `module.exports`. **Não remova essa linha**;
-
-- **Não delete** nenhum arquivo do projeto;
-
-- Para verificar se a sua função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_;
-
-- Caso queira testar sua função sem executar o teste local, você pode chamar a função e apresentar as informações retornadas com o `console.log()`. Mas remova antes de fazer o `push`.
 
 </details>
 
