@@ -5,6 +5,4 @@ const getUniqueProductsAmount = () => {
   return uniqueProducts.size;
 };
 
-console.log(getUniqueProductsAmount());
-
 module.exports = { getUniqueProductsAmount };
